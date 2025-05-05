@@ -2,7 +2,7 @@
 import React from 'react';
 import Home from './Home';
 import About from './About';
-import contact from './Contact';
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Contact from './Contact';
 
