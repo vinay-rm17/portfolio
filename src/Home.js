@@ -27,6 +27,13 @@ function Home() {
           </Button>
         </div>
         <div className="p-2">  
+          <Button variant="light" onClick={() => navigate('/projects')}  style={{ transition: 'transform 0.2s' }}
+          onMouseEnter={(e) => (e.currentTarget.style.transform = 'scale(1.3)')}
+          onMouseLeave={(e) => (e.currentTarget.style.transform = 'scale(1)')}>
+            Projects
+          </Button>
+        </div>
+        <div className="p-2">  
           <Button variant="light" onClick={() => navigate('/contact')}  style={{ transition: 'transform 0.2s' }}
           onMouseEnter={(e) => (e.currentTarget.style.transform = 'scale(1.3)')}
           onMouseLeave={(e) => (e.currentTarget.style.transform = 'scale(1)')} >
@@ -55,7 +62,7 @@ function Home() {
         />
 
         <div className='mt-5'>
-          <a href="\resume.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="\R M Vinay Resume2.pdf" target="_blank" rel="noopener noreferrer">
             <button className='bg-dark text-warning px-4 rounded-pill btn-lg' style={{  transition: 'transform 0.2s',transform: 'scale(1.5)', }}
             onMouseEnter={(e) => (e.currentTarget.style.transform = 'scale(2)')}
             onMouseLeave={(e) => (e.currentTarget.style.transform = 'scale(1.5)')}>View Resume</button>
@@ -72,7 +79,9 @@ function Home() {
             </a>
           </div>
         </div> 
-      </div>
+      
+      
+    </div>
     </div>
   );
 }

@@ -24,6 +24,13 @@ function About() {
   onMouseLeave={(e) => (e.currentTarget.style.transform = 'scale(1)')}>
                   Resume
                 </Button></div>
+                <div className="p-2">  
+                          <Button variant="light" onClick={() => navigate('/projects')}  style={{ transition: 'transform 0.2s' }}
+                          onMouseEnter={(e) => (e.currentTarget.style.transform = 'scale(1.3)')}
+                          onMouseLeave={(e) => (e.currentTarget.style.transform = 'scale(1)')}>
+                            Projects
+                          </Button>
+                        </div>
                 <div className="p-2">  <Button variant="light" onClick={()=> navigate('/contact')}  style={{ transition: 'transform 0.2s' }}
   onMouseEnter={(e) => (e.currentTarget.style.transform = 'scale(1.3)')}
   onMouseLeave={(e) => (e.currentTarget.style.transform = 'scale(1)')} >
